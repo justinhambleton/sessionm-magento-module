@@ -1,6 +1,6 @@
 {
   "name": "vendor/sessionm",
-  "description": "Custom module for integrating SessionM with Magento",
+  "description": "Shared component for integrating SessionM with Magento 2 to enable loyalty use cases.",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": "proprietary",
@@ -19,7 +19,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Sessionm\\": ""
+      "SessionMIntegration\\Loyalty\\": ""
     }
   }
 }
