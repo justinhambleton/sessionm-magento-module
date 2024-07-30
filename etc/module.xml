@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
+
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="SessionMIntegration_Loyalty" setup_version="1.0.0"/>
+    <module name="SessionMIntegration_Magento">
+        <sequence>
+            <module name="SessionM_Customers"/>
+            <module name="SessionM_Loyalty"/>
+            <module name="SessionM_Offers"/>
+            <module name="SessionM_Campaigns"/>
+        </sequence>
+    </module>
 </config>
