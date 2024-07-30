@@ -2,7 +2,6 @@
   "name": "sessionm/sessionm_magento",
   "description": "Custom Module for calling external API on user registration",
   "type": "magento2-module",
-  "version": "1.0.2",
   "license": "proprietary",
   "require": {
     "php": ">=7.4",
