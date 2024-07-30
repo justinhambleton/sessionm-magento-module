@@ -1,5 +1,5 @@
 <?php
-namespace Sessionm\Observer;
+namespace Sessionm\SessionM_Magento\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;

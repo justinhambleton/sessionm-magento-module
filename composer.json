@@ -10,9 +10,16 @@
       "email": "justin@frntr.ai"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yourusername/sessionm_magento"
+    }
+  ],
   "require": {
     "php": "~7.3.0||~7.4.0",
-    "magento/framework": "^102.0.0"
+    "magento/framework": "^102.0.0",
+    "sessionm/sessionm_magento": "1.0.0"
   },
   "autoload": {
     "files": [
