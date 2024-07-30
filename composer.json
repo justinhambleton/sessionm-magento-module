@@ -1,32 +1,25 @@
 {
   "name": "sessionm/sessionm_magento",
-  "description": "Shared component for integrating SessionM with Magento 2 to enable loyalty use cases.",
+  "description": "Custom Module for calling external API on user registration",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Justin Hambleton",
-      "email": "justin@frntr.ai"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/yourusername/sessionm_magento"
+      "name": "Your Name",
+      "email": "your.email@example.com"
     }
   ],
   "require": {
-    "php": "~7.3.0||~7.4.0",
-    "magento/framework": "^102.0.0",
-    "sessionm/sessionm_magento": "1.0.0"
+    "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0||~8.2.0",
+    "magento/framework": "^102.0.0"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "SessionMIntegration\\Loyalty\\": ""
+      "Sessionm\\SessionmMagento\\": ""
     }
   }
 }
