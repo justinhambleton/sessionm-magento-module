@@ -1,5 +1,5 @@
 {
-  "name": "vendor/sessionm",
+  "name": "sessionm",
   "description": "Shared component for integrating SessionM with Magento 2 to enable loyalty use cases.",
   "type": "magento2-module",
   "version": "1.0.0",
